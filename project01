@@ -16,7 +16,7 @@ public static void main(String[] args) {
 	       String c = Integer.toString(c1);		    	/** Transforma o valor da variável "c1" em string e passa o valor para a variável "c" **/
 	       d1 = r.nextInt(1_0);						          /** Gera um número aleatório de 0 a 9 **/
 	       while(d1 == a1 || d1 == b1 || d1 == c1)	/** Confere se o número será igual ao outro caso seja igual gera um outro número **/
-	       	   d1 = r.nextInt(1_0);					        /** Gera um número aleatório de 0 a 9 **/
+	       	 d1 = r.nextInt(1_0);	  				        /** Gera um número aleatório de 0 a 9 **/
 	       String d = Integer.toString(d1);			    /** Transforma o valor da variável "d1" em string e passa o valor para a variável "d" **/
 	      
 	       String[] v = { a,  b,  c,  d};
@@ -25,8 +25,8 @@ public static void main(String[] args) {
 	       for (n = 0; n < 10; n++) {			        	/** Repetição usada para computar a quantidade das tentativas **/
 	      
 	       aa1 = sc.nextInt();						          /** Lê e guarda em uma variável o valor colocado pelo usuário **/
-		   String aa = Integer.toString(aa1);	      	/** Transforma o valor da variável "aa1" em string e passa o valor para a variável "aa" **/
-		   bb1 = sc.nextInt();						            /** Lê e guarda em uma variável o valor colocado pelo usuário **/
+		     String aa = Integer.toString(aa1);	      /** Transforma o valor da variável "aa1" em string e passa o valor para a variável "aa" **/
+		     bb1 = sc.nextInt();						          /** Lê e guarda em uma variável o valor colocado pelo usuário **/
 	       String bb = Integer.toString(bb1);	    	/** Transforma o valor da variável "bb1" em string e passa o valor para a variável "bb" **/
 	       cc1 = sc.nextInt();					          	/** Lê e guarda em uma variável o valor colocado pelo usuário **/
 	       String cc = Integer.toString(cc1);	    	/** Transforma o valor da variável "cc1" em string e passa o valor para a variável "cc" **/
@@ -62,8 +62,8 @@ public static void main(String[] args) {
 	        return;
 	       }
 	       System.out.printf("%d números certos e na posição certa "
-	         			 + "%n%d números certos e na posição errada"
-	         			 + "%n%d números errados%n",pc, pe,nt);
+	         						 + "%n%d números certos e na posição errada"
+	         						 + "%n%d números errados%n",pc, pe,nt);
 	       }
 	       System.out.println(Arrays.toString(v));
 	       sc.close();
